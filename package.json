@@ -10,7 +10,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b master -r origin --repo git@github.com:mauricioVillegasBelmont/pt-react.git",
+    "deploy": "gh-pages -d dist -b pages -r origin --repo git@github.com:mauricioVillegasBelmont/pt-react.git",
     "dev": "vite",
     "build": "tsc && vite build --base=/pt-react",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
