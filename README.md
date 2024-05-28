@@ -25,7 +25,7 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu máquina local
 1. **Clona este repositorio:**
 
   ```console
-  $ git clone https://github.com/mauricioVillegasBelmont/pt-react.git
+  $ git clone https://github.com/mauricioVillegasBelmont/react-pt.git
   $ cd pt-react
   ```
 2. **Instala las dependencias:**
@@ -39,6 +39,12 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu máquina local
 3. **Inicia la aplicación:**
 
 La aplicación estará disponible en [localhost](http://localhost:5173/).
+
+## Deploy
+con npm
+```console
+$ npm run deploy
+```
 
 ## Uso
 - Explora la lista de personajes y locaciones. Utiliza el scroll infinito para cargar más datos.
