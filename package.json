@@ -3,16 +3,16 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mauriciovillegasbelmont.github.io/pt-react",
+  "homepage": "https://mauriciovillegasbelmont.github.io/react-pt/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauricioVillegasBelmont/pt-react.git"
+    "url": "https://github.com/mauricioVillegasBelmont/react-pt.git"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b pages -r origin --repo git@github.com:mauricioVillegasBelmont/pt-react.git",
+    "deploy": "gh-pages -d dist -b pages -r origin --repo git@github.com:mauricioVillegasBelmont/react-pt.git",
     "dev": "vite",
-    "build": "tsc && vite build --base=/pt-react",
+    "build": "tsc && vite build --base=/react-pt",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
