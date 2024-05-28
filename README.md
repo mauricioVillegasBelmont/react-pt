@@ -26,12 +26,11 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu máquina local
 
   ```console
   $ git clone https://github.com/mauricioVillegasBelmont/react-pt.git
-  $ cd pt-react
+  $ cd react-pt
+  $ npm install
   ```
 2. **Instala las dependencias:**
 
-
-  Con npm:
   ```console
   $ npm run build
   ```
